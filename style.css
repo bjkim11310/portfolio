@@ -2,3 +2,7 @@ body{
     background: linear-gradient(30deg, lightgreen, hotpink);
     margin: 0px;
 }
+
+a:visited{
+    color: gold;
+}
