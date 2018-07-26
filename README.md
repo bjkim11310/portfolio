@@ -1,3 +1,3 @@
-#daniel kim's portfolio source codes
+#john kim's portfolio source codes
 
 [online demo](https://blah.netlify.com)
