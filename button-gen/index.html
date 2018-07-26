@@ -35,11 +35,9 @@
                     if(btn.style.background!="black"){
                         btn.style.background = "black";
                     }
-                    else if(num%2==0){
-                        btn.style.background = "lightgreen";
-                    }
                     else{
-                        btn.style.backgrond = "pink";
+                        if(num%2==0) btn.style.background = "lightgreen";
+                        else btn.style.background = "pink";
                     }
                 });
 
