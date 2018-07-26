@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style>
+            button{
+                width: 30px;
+                height: 30px;
+                border: none;
+                background: lightgreen;
+            }
+
+            button:nth-child(2n){
+                background: pink;
+            }
+
+            button:hover {
+                background: black;
+                color: white
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Button Generator</h1>
+
+        <a href="../index.html">Back to main</a>
+
+        <script>
+            let num = 1;;
+            let id = setInterval(()=>{
+                let btn = document.createElement("button");
+                btn.innerText = num++;
+                document.body.appendChild(btn);
+
+                btn.addEventListener('click', ()=>{
+                    if(btn.style.background!="black"){
+                        btn.style.background = "black";
+                    }
+                    else{
+                        btn.style.background = "pink";
+                    }
+                });
+
+                if(num>30) clearInterval(id);
+            }, 250);
+            
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+.todo-item{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background: lightskyblue;
+}
+
+.todo-item:hover{
+    background: hotpink;
+}
