@@ -3,7 +3,7 @@ let board = document.querySelector(".board")
 let emoji = '😂';
 let index = 12;
 let objective = '💸';
-let objectiveIndex = 0;
+let objectiveIndex = index;
 while(objectiveIndex==index){
   objectiveIndex = Math.floor(Math.random()*25);
 }
