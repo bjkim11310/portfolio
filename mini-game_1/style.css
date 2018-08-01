@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+  }
+  
+.board{
+    background: lightcyan;
+    width: 100vw;
+    heiht: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+.cell{
+    border: 1px solid lightgreen;
+    width: calc(100vw/5);
+    height: calc(100vh/5);
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start{
+    background: lightblue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    width: 60%;
+    height: 60%;
+    transition: all 0.5s;
+}
+
+.start:hover{
+    background: cyan;
+    transform: scale(1.1);
+}
